@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 export default function NavBar({props}:InavbarProps){
     return(
@@ -18,9 +19,9 @@ export default function NavBar({props}:InavbarProps){
 
   <div id="navbarBasicExample" className="navbar-menu">
     <div className="navbar-start">
-      <a className="navbar-item">
-        Home
-      </a>
+      
+      <NavLink className="navbar-item" to="/">Tous les personnages</NavLink>
+    
 
       <a className="navbar-item">
         Documentation
@@ -35,9 +36,9 @@ export default function NavBar({props}:InavbarProps){
           <a className="navbar-item">
             Affiliation
           </a>
-          <a className="navbar-item is-selected">
-            Planet
-          </a>
+         
+          <NavLink className="navbar-item is-selected" to="/planets">Planets</NavLink>
+       
           <a className="navbar-item">
             Contact
           </a>

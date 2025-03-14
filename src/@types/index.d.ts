@@ -17,6 +17,7 @@ export interface IOriginplanet {
     name: string;
     isDestroyed: boolean;
     description: string;
+    image : string
 }
 
 export interface Itransformation {
@@ -46,4 +47,10 @@ export interface ILink {
     previous: string
     next: string
     last: string
+}
+
+export interface Iplanet{
+    items : IOriginplanet[]
+    meta : IMeta[]
+    link : ILink[]
 }
