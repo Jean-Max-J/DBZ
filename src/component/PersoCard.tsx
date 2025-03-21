@@ -10,7 +10,7 @@ export default function PersoCard({ id }: IpersoCard) {
       const character = await api.getCharacter(id);
       setPerso(character);
     }
-  });
+  },[]);
   return (
     <>
       {perso ? (

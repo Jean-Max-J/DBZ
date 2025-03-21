@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IOriginplanet, Iplanet } from "../@types";
+import { IOriginplanet } from "../@types";
 import api from "../serives/api";
 
 export default function PlanetCard({ id }: IPlanetCard) {

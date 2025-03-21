@@ -33,9 +33,9 @@ export default function NavBar({props}:InavbarProps){
         </a>
 
         <div className="navbar-dropdown">
-          <a className="navbar-item">
+          <NavLink className="navbar-item" to = "/race">
             Affiliation
-          </a>
+          </NavLink>
          
           <NavLink className="navbar-item is-selected" to="/planets">Planets</NavLink>
        

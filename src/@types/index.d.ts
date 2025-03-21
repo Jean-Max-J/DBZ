@@ -54,3 +54,8 @@ export interface Iplanet{
     meta : IMeta[]
     link : ILink[]
 }
+// export interface Irace{
+//     item : ICharacter[]
+//     meta : IMeta[]
+//     link : ILink[]
+// }
